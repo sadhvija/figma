@@ -1,0 +1,378 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(76, 74, 74);
+    font-size: 20px;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+}
+
+.banner-body {
+    margin-left: 30px;
+
+}
+
+.banner-body>input {
+    border: none;
+}
+
+.banner-body>input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(244, 63, 8);
+}
+
+.banner body img {
+    background-color: #C1DCDC;
+    border-radius: 4px;
+}
+
+.banner {
+    background-color: #C1DCDC;
+    height: 320px;
+    width: 85vw;
+    margin-left: 90px;
+    border-radius: 20px;
+    position: relative;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-top: 30px;
+    margin-top: 20px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.types {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.plant{
+    position: absolute;
+    top:80px;
+    right: 140px;
+    z-index: 1;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.circle{
+    position:absolute;
+    top:60px;
+    right:95px;
+}
+.downarrow{
+    position: absolute;
+    top:10px;
+    right:50px;
+}
+.leftarrow{
+    position: absolute;
+    top:190px;
+    right:400px;
+}
+.cards{
+    display:flex;
+    gap:20px;   
+}
+.favplant1{
+    height:400px;
+    width:260px;
+    margin-top:15px;
+    margin-left: 94px;
+    padding: 30px 30px;
+}
+.favplant1 h2{
+    font-family: arial;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.favplant1 span{
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(95, 97, 97);
+
+}
+.favplant{
+    height:400px;
+    width:260px;
+    margin-top:15px;
+}
+.favplant img{
+    height:80%;
+    width:100%;
+}
+p img{
+    width:20px;
+}
+.favplant1 p{
+    display: flex;
+    margin-top: 20px;
+    gap:5px;
+    background-color:#C1DCDC;
+    margin-right: 55px;
+    padding:7px 2px ;
+    justify-content: center;
+    border-radius: 10px;
+}
+.About{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.About span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:600;
+    margin-top: 70px;
+}
+.About p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 97, 97);
+}
+.Services{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.Services h4{
+    margin-top: 20px;
+}
+.Services p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 97, 97);
+    font-weight: 400;
+}
+.serv1{
+    width:300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.serv2{
+    width:300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.serv3{
+    width:300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Categories{
+    background-color: #C1DCDC;
+    height:600px;
+    margin-top: 70px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.Categories img{
+    width:280px;
+    height:380px;
+}
+.plan1{
+    display: flex;
+    flex-direction: column;
+}
+.plan2{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+}
+.plan2 div{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
+.plan3{
+    display:flex;
+    flex-direction: column;
+}
+.plant1{
+    position: relative;
+    top:-48px;
+}
+.plant2{
+    position: relative;
+    top:48px;
+}
+.plant3{
+    position: relative;
+    top:-48px;
+}
+.Customers{
+    display: flex;
+    justify-content: space-between;
+    width:85vw;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.Customers p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:40%;
+    font-weight: 600;
+    position: relative;
+    top:50px;
+}
+.Customers img{
+    height:8px;
+    width:84px;
+    top:50px;
+    position: relative;
+}
+.reviews1{
+    display: flex;
+    gap:30px;
+}
+.reviews1 .john{
+    height:200px;
+    width:500px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #C1DCDC;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 90px;
+}
+.reviews .john{
+    height:200px;
+    width:500px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #C1DCDC;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.john img{
+    height:120px;
+    top:-18px;
+    position: relative;
+}
+.youtube{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:420px;
+    top:170px;
+}
+.reviews .youtube{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:-110px;
+    top:-110px;
+}
+.star{
+    position: relative;
+    top:170px;
+    right:180px;
+}
+.reviews .star{
+    position: relative;
+    top:-110px;
+    right:40px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.text{
+    display: flex;
+    gap:10px;
+}
+.footer{
+    background-color: #C1DCDC;
+    height:250px;
+    width:100%;
+    display:flex;
+}
+.foot1{
+    width:60%;
+}
+.foot1 img{
+   height:50px;
+}
+.foot1 h2{
+   padding-top:30px;
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+.foot1 p{
+    margin-left:50px;
+}
+.foot1 .im1{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right:20px;
+}
+.foot1 img{
+    margin-right: 20px;
+}
+.foot2{
+    display: flex;
+    gap:50px;
+    margin-top: 40px;
+}
+.foot2 div{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.foot2 div p{
+    color:rgb(95, 97, 97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+div h4{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
